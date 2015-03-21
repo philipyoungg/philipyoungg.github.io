@@ -1,0 +1,45 @@
+!!!
+%html.no-js{:lang => "en"}
+	%head
+		%meta{:charset => "utf-8"}
+		%meta{:name => "viewport", :content => "width=device-width, initial-scale=1.0"}
+		%link{:href => 'css/foundation.css', :rel =>'stylesheet'}
+		%link{:href => "css/app.css", :rel => "stylesheet"}
+		%title Box Notes
+	%body
+		%section#header
+			%div.row
+				%div.small-12.large-12.column.header
+					%img{:src =>"https://www.box.com/sites/all/themes/at-box/templates/microsites/boxnotes/img/logo.png"}
+					%div
+						%a{:href => "", :class => "button btn-alt"} Get Started
+		%section#content1
+			%div.row
+				%div.small-12.large-12.column.content
+					%h3 Never let the best ideas get away
+					%h5 Create documents, take notes and share ideas in real-time with anyone.
+					%img{:src => 'https://www.box.com/sites/all/themes/at-box/templates/microsites/boxnotes/img/note.png'}
+		%section#content2
+			%div.row
+				%div.small-12.large-12.column.content
+					%h3 Work is more collaborative than ever
+					%h5 Ideas get stronger with teamwork. Box Notes is designed to make that happen.
+					%img{:src =>'https://www.box.com/sites/all/themes/at-box/templates/microsites/boxnotes/img/macbook.png'}
+					%img{:src =>'https://www.box.com/sites/all/themes/at-box/templates/microsites/boxnotes/img/phone.png', :id => 'little'}
+		%section#content3
+			%div.row
+				%div.small-12.large-12.column.content
+					%h3 It's better on Box
+					%h5 Your business ideas should live with the rest of your business content. Now they can.
+					%img{:src => 'https://www.box.com/sites/all/themes/at-box/templates/microsites/boxnotes/img/mbp.png'}
+		%section#footer
+			%div
+				%ul
+					%li Sitemap
+					%li Terms of Use
+					%li Privacy Policy
+					%li &copy 2015 box
+		%script{:src => "js/vendor/jquery.js"}
+		%script{:src => "js/foundation.min.js"}
+		:javascript
+			$(document).foundation();
