@@ -34,57 +34,5 @@
       "maxWidth": 896
     }
   },
-  "content": [
-    {
-      "component": "nav",
-      "links": [
-        {
-          "href": "https://github.com/philipyoungg/philipyoungg.github.io",
-          "text": "GitHub"
-        },
-        {
-          "href": "Kasus",
-          "text": "Marketing"
-        },
-        {
-          "href": "",
-          "text": ""
-        },
-        {
-          "href": "",
-          "text": ""
-        }
-      ]
-    },
-    {
-      "component": "header",
-      "heading": "philipyoungg.github.io",
-      "subhead": null,
-      "children": [
-        {
-          "component": "ui/TweetButton",
-          "text": "philipyoungg.github.io: ",
-          "url": null
-        },
-        {
-          "component": "ui/GithubButton",
-          "user": "philipyoungg",
-          "repo": "philipyoungg.github.io"
-        }
-      ]
-    },
-    {
-      "component": "footer",
-      "links": [
-        {
-          "href": "https://github.com/philipyoungg/philipyoungg.github.io",
-          "text": "GitHub"
-        },
-        {
-          "href": "https://github.com/philipyoungg",
-          "text": "philipyoungg"
-        }
-      ]
-    }
-  ]
+  "content": []
 }
